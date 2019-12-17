@@ -36,23 +36,23 @@ Each processor consists of basic functions that are invocated by `Marlin` :
 - end()  
 `Marlin` executes each function at certain timings. See examples as follows:  
 1) At the very beginninig...  
-  1) `init()` of `MakeComponentsProcesser` 
-  2) `init()` of `AssembleProcessor`
-  3) `init()` of `CheckProcessor`.  
+	1) `init()` of `MakeComponentsProcesser` 
+	2) `init()` of `AssembleProcessor`
+	3) `init()` of `CheckProcessor`.  
 
 2) When `Marlin` starts processing Run data ...        
-  1) `processRunHeader()` of `MakeComponentsProcesser` 
-  2) `processRunHeader()` of `AssembleProcessor`
-  3) `processRunHeader()` of `CheckProcessor`.  
+	1) `processRunHeader()` of `MakeComponentsProcesser` 
+	2) `processRunHeader()` of `AssembleProcessor`
+	3) `processRunHeader()` of `CheckProcessor`.  
 
 3) When `Marlin` starts reading a new event data ...        
-  1) `processEvent()` of `MakeComponentsProcesser` 
-  2) `processEvent()` of `AssembleProcessor`
-  3) `processEvent()` of `CheckProcessor`.
+	1) `processEvent()` of `MakeComponentsProcesser` 
+	2) `processEvent()` of `AssembleProcessor`
+	3) `processEvent()` of `CheckProcessor`.
 4) When `Marlin` ends processing...  
-  1) `end()` of `MakeComponentsProcesser` 
-  2) `end()` of `AssembleProcessor`
-  3) `end()` of `CheckProcessor`.
+	1) `end()` of `MakeComponentsProcesser` 
+	2) `end()` of `AssembleProcessor`
+	3) `end()` of `CheckProcessor`.
 
 Let's reinterpret "new event" as "new car" in our earlier example.  
 The point is, each new car should be always processed in the same way as the first car.
