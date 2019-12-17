@@ -32,7 +32,7 @@ Let's run anyway before explaning details.
 2) Run Marlin
 	1) Go back step3 directory.
 
-	2) Go to run directory.  
+	2) Go to `run` directory.  
 		```Marlin simple_test.xml```
 
 	3) If you see following meassages, it should be fine.  
