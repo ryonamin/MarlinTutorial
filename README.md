@@ -9,9 +9,7 @@ You can download all the files in this repository:
 		```git clone https://github.com/ryonamin/MarlinTutorial.git```
 
 You can update your local repository:  
-	1) Login to KEKCC    
-
+	1) Login to KEKCC   
 	2) Go to the git directory.  
-
 	3) Type follwoing command:   
 	```git pull```  
