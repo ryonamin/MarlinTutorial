@@ -40,7 +40,7 @@ Each processor consists of basic functions that are invocated by `Marlin` :
 	2) `init()` of `AssembleProcessor`
 	3) `init()` of `CheckProcessor`.  
 
-2) When `Marlin` starts processing Run data ...        
+2) When `Marlin` starts processing a new run data (a bunch of event data) ...        
 	1) `processRunHeader()` of `MakeComponentsProcesser` 
 	2) `processRunHeader()` of `AssembleProcessor`
 	3) `processRunHeader()` of `CheckProcessor`.  
