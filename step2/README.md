@@ -68,10 +68,10 @@ That's it.
 Now let's have a look at details.  
 1) Check processor source codes.  
 	1) Check that you have `src` and `include` directories in `SimpleProcessor` directory
-	2) Have a look at `src/SimpleProcessor.cc` and `include/SimpleProcessor.h`
+	2) Have a look at `src/MyProcessor.cc` and `include/MyProcessor.h`
 	3) Check that in each basic function, there are `std::cout << .. << std::endl;` so that we can recognize they are called in run time.
 
-2) Check `CMakeLists.txt` in `SimpleProcessor`  
+2) Check `CMakeLists.txt` in `SimpleProcessor` directory   
 	This `CMakeLists.txt` is used to describe what we want CMake to do.
 	CMake has many features and I can't describe them all.
 	Here I just mention that we specified the project name at line.9 in `CMakeLists.txt` as below;
@@ -104,4 +104,4 @@ Now let's have a look at details.
 
 	3) `<processor>...</processor>`  
 		Describe prameters for each processsor. Note that name should be same as the one specifed in `<execute>` 
-		tag, and type is the class name of your processor (See line 15 in `SimpleProcessor.cc`). 
+		tag, and type is the class name of your processor (See line 15 in `MyProcessor.cc`). 
