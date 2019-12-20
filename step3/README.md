@@ -59,7 +59,7 @@ That's it.
 
 Now let's have a look at details.  
 1) Check `src/SimpleProcessor.cc`.  
-	1) Check that you have the following two lines at line 4 and 5. These are necessary to use LCCollection class and MCParticle class.   
+	1) Check that you have the following two lines at line 4 and 5. These are necessary to use LCCollection class and MCParticle class. These files can be found in `$LCIO/include` and you can find all the methods for the class objects.    
 	```#include <EVENT/LCCollection.h>```  
 	```#include <EVENT/MCParticle.h>```  
 	2) Have a look at `processEvent()`  
